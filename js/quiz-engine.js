@@ -6,7 +6,9 @@
 const HEADER_HTML = `
   <header class="header">
     <div class="container header-inner">
-      <img src="images/logo-white.png" alt="Men's Rise" class="header-logo-img" onerror="this.parentElement.innerHTML='<span class=header-logo>Men\\'s Rise</span>'">
+      <a href="index.html" style="display:inline-flex;text-decoration:none;">
+        <img src="images/logo-white.png" alt="Men's Rise" class="header-logo-img" onerror="this.parentElement.innerHTML='<span class=header-logo>Men\\'s Rise</span>'">
+      </a>
     </div>
   </header>`;
 
